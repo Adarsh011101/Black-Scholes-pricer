@@ -3,10 +3,7 @@ import matplotlib.pyplot as plt
 import yfinance as yf
 from scipy.stats import norm
 
-
-
-
-#Deriving call and put price using Black_Scholes model
+#Deriving call and put price using the Black_Scholes model
 def black_scholes(S,K,T,r,sigma,option_type='call'):
     
     """
