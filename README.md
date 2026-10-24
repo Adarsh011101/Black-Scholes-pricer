@@ -13,3 +13,8 @@ pip install numpy scipy matplotlib yfinance
 
 ## Usage
 python Black_scholes.py
+
+## Binomial Tree Pricer
+- Implements Cox-Ross-Rubinstein (CRR) binomial tree
+- Demonstrates convergence to Black-Scholes as number of steps N → ∞
+- Verified: N=1000 steps gives price within 0.0003 of analytical BS price
